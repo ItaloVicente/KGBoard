@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739904635
+::res://::1739904708
 icon.svg::CompressedTexture2D::7990452260560669272::1739559887::1739559929::1::::<><>::
 tabuleiro.gd::GDScript::-1::1739559887::0::1::::<>Node2D<>::
 ::res://fonts/::1738884479
@@ -13,12 +13,12 @@ História.json::JSON::-1::1739559887::0::1::::<><>::
 Lógica.json::JSON::-1::1739559887::0::1::::<><>::
 Português.json::JSON::-1::1739559887::0::1::::<><>::
 Teste de Software.json::JSON::-1::1739559887::0::1::::<><>::
-::res://scenes/::1739498609
-carta.tscn::PackedScene::234618681829972994::1739904156::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://cbn04un8jid55::::res://sounds/Faustão-acertou.wav<>uid://c1wtxsb5gsrq8::::res://sounds/Errou - Faustao Falando.mp3
-menu_principal.tscn::PackedScene::5504748792099553450::1739904156::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://b18lmyyppbux4::::res://sprites/tela de menu.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://dogns0etjy3ke::::res://sprites/botão 7.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
-peao.tscn::PackedScene::3136927320803561761::1739904156::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
-tabuleiro.tscn::PackedScene::3778224174041577230::1739904156::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png
-timer.tscn::PackedScene::8876453083372106769::1739904156::0::1::::<><>::res://scripts/CountDown_Timer.gd
+::res://scenes/::1739904637
+carta.tscn::PackedScene::234618681829972994::1739904637::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://cbn04un8jid55::::res://sounds/Faustão-acertou.wav<>uid://c1wtxsb5gsrq8::::res://sounds/Errou - Faustao Falando.mp3
+menu_principal.tscn::PackedScene::5504748792099553450::1739904637::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://b18lmyyppbux4::::res://sprites/tela de menu.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://dogns0etjy3ke::::res://sprites/botão 7.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
+peao.tscn::PackedScene::3136927320803561761::1739904637::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
+tabuleiro.tscn::PackedScene::3778224174041577230::1739904637::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png
+timer.tscn::PackedScene::8876453083372106769::1739904637::0::1::::<><>::res://scripts/CountDown_Timer.gd
 ::res://scripts/::1739456998
 carta.gd::GDScript::-1::1739812717::0::1::::<>Node2D<>::
 CountDown_Timer.gd::GDScript::-1::1739559887::0::1::::<>Node<>::

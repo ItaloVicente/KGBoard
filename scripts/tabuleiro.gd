@@ -130,8 +130,9 @@ func mover_peao_frente(jogador_id: int, forma_geometrica: String) -> void:
 					encontrou_pos = true
 	#Se passou nos if é porque chegou no final
 	var tween = create_tween()
-	tween.tween_property(pawn, "position", Vector2(65,225), 1.0)
-	print("Jogador Ganhou! ", jogador_id)
+	if tween.tween_property(pawn, "position", Vector2(65,225), 1.0):
+		print("Jogador Ganhou! ", jogador_id)
+		print('teste')
 	self.botao_2x = false
 	
 func mover_peao_atras(jogador_id: int, forma_geometrica) -> void:
@@ -282,12 +283,15 @@ func set_buttons_active(active: bool) -> void:
 func _on_button_pressed() -> void:
 	var temas_selecionados = get_tree().root.get_meta("temas")
 	random_question(temas_selecionados,indices_jogadores, ultimo_indice)
-	pass # Replace with function body.
-
 
 func _on_button_2_pressed() -> void:
 	self.botao_2x = true
 	var temas_selecionados = get_tree().root.get_meta("temas")
 	random_question(temas_selecionados,indices_jogadores, ultimo_indice)
-	pass # Replace with function body.
-	
+
+func _on_menu_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+
+
+func _on_sair_pressed() -> void:
+	get_tree().quit()
