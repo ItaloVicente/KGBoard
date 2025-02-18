@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dlweushj5aba"]
+[gd_scene load_steps=7 format=3 uid="uid://dlweushj5aba"]
 
 [ext_resource type="Script" path="res://scripts/carta.gd" id="1_2d8bg"]
 [ext_resource type="Texture2D" uid="uid://biak7mb65wxw0" path="res://sprites/Fundo5.png" id="1_dnat8"]
 [ext_resource type="FontFile" uid="uid://0tgqo0vgbhkb" path="res://fonts/BalooThambi2-Bold.ttf" id="2_6bioc"]
+[ext_resource type="AudioStream" uid="uid://cbn04un8jid55" path="res://sounds/Faustão-acertou.wav" id="4_sj3q0"]
+[ext_resource type="AudioStream" uid="uid://c1wtxsb5gsrq8" path="res://sounds/Errou - Faustao Falando.mp3" id="5_64ikq"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_derta"]
 font = ExtResource("2_6bioc")
@@ -42,5 +44,12 @@ offset_left = 454.0
 offset_top = 102.0
 offset_right = 616.0
 offset_bottom = 135.0
+
+[node name="AcertouAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_sj3q0")
+
+[node name="ErrouAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_64ikq")
+volume_db = 3.0
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

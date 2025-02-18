@@ -1,42 +1,53 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739467377
-icon.svg::CompressedTexture2D::7990452260560669272::1738859913::1738884479::1::::<><>::
-tabuleiro.gd::GDScript::-1::1738859913::0::1::::<>Node2D<>::
+::res://::1739904635
+icon.svg::CompressedTexture2D::7990452260560669272::1739559887::1739559929::1::::<><>::
+tabuleiro.gd::GDScript::-1::1739559887::0::1::::<>Node2D<>::
 ::res://fonts/::1738884479
-BalooThambi2-Bold.ttf::FontFile::1794337917846244537::1738859913::1738884479::1::::<><>::
-BalooThambi2-ExtraBold.ttf::FontFile::2120242716864223504::1738859913::1738884479::1::::<><>::
+BalooThambi2-Bold.ttf::FontFile::1794337917846244537::1739559887::1739559929::1::::<><>::
+BalooThambi2-ExtraBold.ttf::FontFile::2120242716864223504::1739559887::1739559929::1::::<><>::
 ::res://positions/::1738859913
-positions.json::JSON::-1::1738859913::0::1::::<><>::
-::res://questions/::1739457736
-Ciências.json::JSON::-1::1739457597::0::1::::<><>::
-História.json::JSON::-1::1739457597::0::1::::<><>::
-Lógica.json::JSON::-1::1739457662::0::1::::<><>::
-Português.json::JSON::-1::1739457704::0::1::::<><>::
-Teste de Software.json::JSON::-1::1739457736::0::1::::<><>::
-::res://scenes/::1739457750
-carta.tscn::PackedScene::234618681829972994::1738861623::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf
-menu_principal.tscn::PackedScene::5504748792099553450::1739457750::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf
-peao.tscn::PackedScene::3136927320803561761::1739457750::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
-tabuleiro.tscn::PackedScene::3778224174041577230::1739457750::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png
-timer.tscn::PackedScene::8876453083372106769::1739457750::0::1::::<><>::res://scripts/CountDown_Timer.gd
+positions.json::JSON::-1::1739559887::0::1::::<><>::
+::res://questions/::1739467731
+Ciências.json::JSON::-1::1739559887::0::1::::<><>::
+História.json::JSON::-1::1739559887::0::1::::<><>::
+Lógica.json::JSON::-1::1739559887::0::1::::<><>::
+Português.json::JSON::-1::1739559887::0::1::::<><>::
+Teste de Software.json::JSON::-1::1739559887::0::1::::<><>::
+::res://scenes/::1739498609
+carta.tscn::PackedScene::234618681829972994::1739904156::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://cbn04un8jid55::::res://sounds/Faustão-acertou.wav<>uid://c1wtxsb5gsrq8::::res://sounds/Errou - Faustao Falando.mp3
+menu_principal.tscn::PackedScene::5504748792099553450::1739904156::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://b18lmyyppbux4::::res://sprites/tela de menu.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://dogns0etjy3ke::::res://sprites/botão 7.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
+peao.tscn::PackedScene::3136927320803561761::1739904156::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
+tabuleiro.tscn::PackedScene::3778224174041577230::1739904156::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png
+timer.tscn::PackedScene::8876453083372106769::1739904156::0::1::::<><>::res://scripts/CountDown_Timer.gd
 ::res://scripts/::1739456998
-carta.gd::GDScript::-1::1738884424::0::1::::<>Node2D<>::
-CountDown_Timer.gd::GDScript::-1::1738884424::0::1::::<>Node<>::
-menu_principal.gd::GDScript::-1::1738884408::0::1::::<>Node2D<>::
-posicao.gd::GDScript::-1::1738859913::0::1::::Posicao<>Object<>::
-tabuleiro.gd::GDScript::-1::1739456998::0::1::::<>Node2D<>::
-::res://sounds/::1738887660
-407484__ruthdt98__boardgame.wav::AudioStreamWAV::920127135818471932::1738887136::1738887190::1::::<><>::
-553410__petebarry__fx_board_game_pawn01.wav::AudioStreamWAV::8768243767007188792::1738887196::1738887201::1::::<><>::
-mixkit-on-or-off-light-switch-tap-2585.wav::AudioStreamWAV::4148001295297572693::1738887657::1738887660::1::::<><>::
-::res://sprites/::1738884479
-Captura de tela de 2025-01-07 16-14-39.png::CompressedTexture2D::7650730063944486849::1738859913::1738884479::1::::<><>::
-Captura de tela de 2025-01-14 09-59-23.png::CompressedTexture2D::1512320237356328618::1738859913::1738884479::1::::<><>::
-Fundo1_black.png::CompressedTexture2D::4118750623966628509::1738859913::1738884479::1::::<><>::
-Fundo1_white.png::CompressedTexture2D::8142887545771917635::1738859913::1738884479::1::::<><>::
-Fundo2.png::CompressedTexture2D::4660423540883817120::1738859913::1738884479::1::::<><>::
-Fundo5.png::CompressedTexture2D::2948596381404467857::1738859913::1738884479::1::::<><>::
-Peao-Grow-Azul.png::CompressedTexture2D::7339001021238243025::1738859913::1738884479::1::::<><>::
-Peao-Grow-Branco.png::CompressedTexture2D::3573110889596717691::1738859913::1738884479::1::::<><>::
-Peao-Grow-Preto.png::CompressedTexture2D::6181535681997156209::1738859913::1738884479::1::::<><>::
-Peao-Grow-Vermelho.png::CompressedTexture2D::4611120322664073690::1738859913::1738884479::1::::<><>::
+carta.gd::GDScript::-1::1739812717::0::1::::<>Node2D<>::
+CountDown_Timer.gd::GDScript::-1::1739559887::0::1::::<>Node<>::
+menu_principal.gd::GDScript::-1::1739561583::0::1::::<>Node2D<>::
+posicao.gd::GDScript::-1::1739559887::0::1::::Posicao<>Object<>::
+tabuleiro.gd::GDScript::-1::1739559887::0::1::::<>Node2D<>::
+::res://sounds/::1739904610
+407484__ruthdt98__boardgame.wav::AudioStreamWAV::920127135818471932::1739559887::1739559929::1::::<><>::
+553410__petebarry__fx_board_game_pawn01.wav::AudioStreamWAV::8768243767007188792::1739559887::1739559929::1::::<><>::
+Errou - Faustao Falando.mp3::AudioStreamMP3::6644363257023650037::1739560095::1739560100::1::::<><>::
+Faustão-acertou.wav::AudioStreamWAV::4871437906730590422::1739560142::1739560146::1::::<><>::
+mixkit-on-or-off-light-switch-tap-2585.wav::AudioStreamWAV::4148001295297572693::1739559887::1739559929::1::::<><>::
+::res://sprites/::1739904610
+botão4.png::CompressedTexture2D::8214439506332867774::1739563836::1739564096::1::::<><>::
+botão5.png::CompressedTexture2D::629282758020418808::1739564526::1739564527::1::::<><>::
+botão 6.png::CompressedTexture2D::468544250844630423::1739564782::1739564782::1::::<><>::
+botão 7.png::CompressedTexture2D::8155114913871614712::1739816033::1739816037::1::::<><>::
+botão 8.png::CompressedTexture2D::1270408569428949097::1739815829::1739815834::1::::<><>::
+Captura de tela de 2025-01-07 16-14-39.png::CompressedTexture2D::7650730063944486849::1739559887::1739559929::1::::<><>::
+Captura de tela de 2025-01-14 09-59-23.png::CompressedTexture2D::1512320237356328618::1739559887::1739559929::1::::<><>::
+Fundo1_black.png::CompressedTexture2D::4118750623966628509::1739559887::1739559929::1::::<><>::
+Fundo1_white.png::CompressedTexture2D::8142887545771917635::1739559887::1739559929::1::::<><>::
+Fundo2.png::CompressedTexture2D::4660423540883817120::1739559887::1739559929::1::::<><>::
+Fundo5.png::CompressedTexture2D::2948596381404467857::1739559887::1739559929::1::::<><>::
+Peao-Grow-Azul.png::CompressedTexture2D::7339001021238243025::1739559887::1739559929::1::::<><>::
+Peao-Grow-Branco.png::CompressedTexture2D::3573110889596717691::1739559887::1739559929::1::::<><>::
+Peao-Grow-Preto.png::CompressedTexture2D::6181535681997156209::1739559887::1739559929::1::::<><>::
+Peao-Grow-Vermelho.png::CompressedTexture2D::4611120322664073690::1739559887::1739559929::1::::<><>::
+tela de menu.png::CompressedTexture2D::4280145698950554579::1739818801::1739818805::1::::<><>::
+::res://sprites/imagens/::1739904610
+faustao acertou.jpg::CompressedTexture2D::3726612644424371632::1739560421::1739560432::1::::<><>::
+faustão errou.jpg::CompressedTexture2D::5411183743594509357::1739560448::1739560448::1::::<><>::

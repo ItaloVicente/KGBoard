@@ -1,8 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://ckosn5b4q8oak"]
+[gd_scene load_steps=12 format=3 uid="uid://ckosn5b4q8oak"]
 
 [ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_i4jmv"]
 [ext_resource type="Texture2D" uid="uid://biak7mb65wxw0" path="res://sprites/Fundo5.png" id="2_b3hhf"]
+[ext_resource type="Texture2D" uid="uid://b18lmyyppbux4" path="res://sprites/tela de menu.png" id="2_f8ny3"]
 [ext_resource type="FontFile" uid="uid://0tgqo0vgbhkb" path="res://fonts/BalooThambi2-Bold.ttf" id="3_brt5b"]
+[ext_resource type="Texture2D" uid="uid://dogns0etjy3ke" path="res://sprites/botão 7.png" id="4_510id"]
+[ext_resource type="Texture2D" uid="uid://sdnpcyqn8f82" path="res://sprites/botão 8.png" id="5_ht2rb"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dc8x2"]
 font = ExtResource("3_brt5b")
@@ -36,16 +39,26 @@ func _process(delta: float) -> void:
 	pass
 "
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aoe30"]
+load_path = "res://.godot/imported/botão 7.png-2bd88bdcb2965814db3536b185c347c1.ctex"
+
 [sub_resource type="LabelSettings" id="LabelSettings_a7y3k"]
 font = ExtResource("3_brt5b")
 
 [node name="MenuPrincipal" type="Node2D"]
 script = ExtResource("1_i4jmv")
 
+[node name="TelaMenu" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_f8ny3")
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(576, 324.5)
 scale = Vector2(2.12963, 0.673958)
 texture = ExtResource("2_b3hhf")
+region_rect = Rect2(0, 0, 1153, 651)
 
 [node name="Titulo" type="Label" parent="."]
 offset_left = 2.0
@@ -57,19 +70,25 @@ label_settings = SubResource("LabelSettings_dc8x2")
 horizontal_alignment = 1
 
 [node name="Jogadores" type="Button" parent="."]
-offset_left = 173.0
-offset_top = 292.0
-offset_right = 513.0
-offset_bottom = 398.0
+offset_left = 429.0
+offset_top = 284.0
+offset_right = 752.0
+offset_bottom = 359.0
 text = "Escolher Jogadores"
+icon = ExtResource("4_510id")
+flat = true
+icon_alignment = 1
 script = SubResource("GDScript_40msf")
 
 [node name="Regras" type="Button" parent="."]
-offset_left = 852.0
-offset_top = 580.0
-offset_right = 1038.0
-offset_bottom = 631.0
+offset_left = 480.0
+offset_top = 476.0
+offset_right = 711.0
+offset_bottom = 527.0
 text = "Regras"
+icon = ExtResource("5_ht2rb")
+flat = true
+icon_alignment = 1
 script = SubResource("GDScript_lipa1")
 
 [node name="PopupRegras" type="Popup" parent="."]
@@ -119,18 +138,24 @@ text = "Voltar
 "
 
 [node name="IniciarJogo" type="Button" parent="."]
-offset_left = 450.0
-offset_top = 478.0
-offset_right = 670.0
-offset_bottom = 577.0
+offset_left = 431.0
+offset_top = 409.0
+offset_right = 750.0
+offset_bottom = 471.0
 text = "Iniciar Jogo"
+icon = SubResource("CompressedTexture2D_aoe30")
+flat = true
+icon_alignment = 1
 
 [node name="Temas" type="Button" parent="."]
-offset_left = 603.0
-offset_top = 294.0
-offset_right = 936.0
-offset_bottom = 398.0
+offset_left = 426.0
+offset_top = 349.0
+offset_right = 755.0
+offset_bottom = 412.0
 text = "Escolher Temas"
+icon = SubResource("CompressedTexture2D_aoe30")
+flat = true
+icon_alignment = 1
 
 [node name="PopupTemas" type="Popup" parent="."]
 

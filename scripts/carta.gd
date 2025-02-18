@@ -17,6 +17,8 @@ signal jogador_errou
 @onready var alternativas_container = $GridContainer
 @onready var botao_confirmar = $Button
 @onready var card_sprite = $Sprite2D
+@onready var acertou_audio: AudioStreamPlayer = $AcertouAudio
+@onready var errou_audio: AudioStreamPlayer = $ErrouAudio
 
 # Defina a largura máxima do texto para os checkboxes
 var max_text_width = 330  # Altere esse valor conforme necessário para ajustar ao tamanho do seu card
@@ -99,6 +101,8 @@ func _on_button_pressed() -> void:
 				if resposta_final.strip_edges() == alternativa_correta:
 					print("Jogador acertou!")
 					print(jogador_id)
+					acertou_audio.play()
+					await acertou_audio.finished
 					emit_signal("jogador_acertou", jogador_id, forma_geometrica)  # Emitir um sinal, por exemplo
 					emit_signal("carta_finalizada")
 					queue_free()
@@ -106,6 +110,8 @@ func _on_button_pressed() -> void:
 					get_tree().root.set_meta("is_correct", is_correct)
 					return 
 	print("Jogador errou!")
+	errou_audio.play()
+	await errou_audio.finished
 	emit_signal("jogador_errou", jogador_id, forma_geometrica)  # Emitir um sinal, por exemplo
 	emit_signal("carta_finalizada")
 	get_tree().root.set_meta("is_correct", is_correct)
