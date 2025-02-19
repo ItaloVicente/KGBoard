@@ -1,106 +1,162 @@
 [
 	{
 		"id": 1,
-		"pergunta": "Qual é o antônimo de feliz?",
-		"alternativas": [
-			"Contente",
-			"Triste",
-			"Bravo",
-			"Animado"
-		],
+		"pergunta": "Qual é a palavra correta: 'Nós vai' ou 'Nós vamos'?",
+		"alternativas": ["Nós vai", "Nós vamos", "Ambos estão corretos", "Nenhum está correto"],
+		"resposta_correta": ["Nós vamos"],
+		"tema": "Português",
+		"forma_geometrica": "triângulo"
+	  },
+	  {
+		"id": 2,
+		"pergunta": "Qual é o plural de 'cidadão'?",
+		"alternativas": ["Cidadões", "Cidadãos", "Cidadã", "Cidadãs"],
+		"resposta_correta": ["Cidadãos"],
+		"tema": "Português",
+		"forma_geometrica": "quadrado"
+	  },
+	  {
+		"id": 3,
+		"pergunta": "Qual é o tempo verbal da frase: 'Eu estudei ontem'?",
+		"alternativas": ["Presente", "Futuro", "Passado", "Gerúndio"],
+		"resposta_correta": ["Passado"],
+		"tema": "Português",
+		"forma_geometrica": "círculo"
+	  },
+	  {
+		"id": 4,
+		"pergunta": "Qual é o antônimo de 'feliz'?",
+		"alternativas": ["Triste", "Contente", "Alegre", "Radiante"],
 		"resposta_correta": ["Triste"],
 		"tema": "Português",
-		"forma_geometrica": "círculo"
-	},
-	{
-		"id": 2,
-		"pergunta": "Qual dessas palavras é um verbo?",
-		"alternativas": [
-			"Mesa",
-			"Correr",
-			"Azul",
-			"Livro"
-		],
-		"resposta_correta": ["Correr"],
-		"tema": "Português",
 		"forma_geometrica": "losango"
-	},
-	{
-		"id": 3,
-		"pergunta": "Qual das palavras abaixo está escrita corretamente?",
-		"alternativas": [
-			"Exceção",
-			"Excessão",
-			"Exseção",
-			"Excesão"
-		],
-		"resposta_correta": ["Exceção"],
-		"tema": "Português",
-		"forma_geometrica": "triângulo"
-	},
-	{
-		"id": 4,
-		"pergunta": "Qual das alternativas 'mais e mas' estão aplicadas corretamente?",
-		"alternativas": [
-			"Eu quero mais bolo, mas já estou cheio",
-			"Eu quero mas bolo, mais já estou cheio",
-			"Eu quero mais bolo, mais já estou cheio",
-			"Eu quero mas bolo, mas já estou cheio"
-		],
-		"resposta_correta": ["Eu quero mais bolo, mas já estou cheio"],
-		"tema": "Português",
-		"forma_geometrica": "quadrado"
-	},
-	{
+	  },
+	  {
 		"id": 5,
-		"pergunta": "Qual dessas palavras é um substantivo próprio?",
-		"alternativas": [
-			"Cachorro",
-			"Brasil",
-			"Feliz",
-			"Correr"
-		],
-		"resposta_correta": ["Brasil"],
+		"pergunta": "Qual é a forma correta: 'Há dez anos' ou 'A dez anos'?",
+		"alternativas": ["Há dez anos", "A dez anos", "Ambos estão corretos", "Nenhum está correto"],
+		"resposta_correta": ["Há dez anos"],
 		"tema": "Português",
-		"forma_geometrica": "círculo"
-	},
-	{
+		"forma_geometrica": "hexágono"
+	  },
+	  {
 		"id": 6,
-		"pergunta": "Quantas letras tem o alfabeto da língua portuguesa?",
-		"alternativas": [
-			"23",
-			"26",
-			"28",
-			"30"
-		],
-		"resposta_correta": ["26"],
+		"pergunta": "Qual é o sinônimo de 'rápido'?",
+		"alternativas": ["Devagar", "Lento", "Veloz", "Parado"],
+		"resposta_correta": ["Veloz"],
 		"tema": "Português",
 		"forma_geometrica": "triângulo"
-	},
-	{
+	  },
+	  {
 		"id": 7,
-		"pergunta": "O que é uma rima?",
-		"alternativas": [
-			"Uma repetição de sons no final das palavras",
-			"Uma comparação entre duas coisas",
-			"Uma exageração",
-			"Uma palavra que imita um som30"
-		],
-		"resposta_correta": ["Uma repetição de sons no final das palavras"],
+		"pergunta": "Qual é a classe gramatical da palavra 'felizmente'?",
+		"alternativas": ["Adjetivo", "Substantivo", "Verbo", "Advérbio"],
+		"resposta_correta": ["Advérbio"],
 		"tema": "Português",
 		"forma_geometrica": "quadrado"
-	},
-	{
+	  },
+	  {
 		"id": 8,
-		"pergunta": "Qual é o plural da palavra cão?",
-		"alternativas": [
-			"Cãos",
-			"Cães",
-			"Cãozinhos",
-			"Cãois"
-		],
-		"resposta_correta": ["Cães"],
+		"pergunta": "Qual dessas palavras leva acento?",
+		"alternativas": ["Heroi", "Ideia", "Juri", "Tóxico"],
+		"resposta_correta": ["Tóxico"],
+		"tema": "Português",
+		"forma_geometrica": "círculo"
+	  },
+	  {
+		"id": 9,
+		"pergunta": "Qual dessas frases está correta?",
+		"alternativas": ["Eu vi ele ontem", "Eu o vi ontem", "Eu viu ele ontem", "Ele mim viu ontem"],
+		"resposta_correta": ["Eu o vi ontem"],
 		"tema": "Português",
 		"forma_geometrica": "losango"
-	}
+	  },
+	  {
+		"id": 10,
+		"pergunta": "Qual é o feminino de 'ator'?",
+		"alternativas": ["Atora", "Atoriza", "Atriz", "Atorista"],
+		"resposta_correta": ["Atriz"],
+		"tema": "Português",
+		"forma_geometrica": "hexágono"
+	  },
+	  {
+		"id": 11,
+		"pergunta": "Qual a função da vírgula na frase: 'Pedro, venha aqui!'?",
+		"alternativas": ["Separar termos", "Enumeração", "Vocativo", "Adjunto"],
+		"resposta_correta": ["Vocativo"],
+		"tema": "Português",
+		"forma_geometrica": "triângulo"
+	  },
+	  {
+		"id": 12,
+		"pergunta": "O que é uma oração subordinada?",
+		"alternativas": ["Frase completa", "Parte dependente de outra", "Verbo auxiliar", "Adjunto adverbial"],
+		"resposta_correta": ["Parte dependente de outra"],
+		"tema": "Português",
+		"forma_geometrica": "quadrado"
+	  },
+	  {
+		"id": 13,
+		"pergunta": "Qual dessas palavras é um substantivo?",
+		"alternativas": ["Bonito", "Correr", "Mesa", "Felizmente"],
+		"resposta_correta": ["Mesa"],
+		"tema": "Português",
+		"forma_geometrica": "círculo"
+	  },
+	  {
+		"id": 14,
+		"pergunta": "Qual é a conjugação correta do verbo 'cantar' na 1ª pessoa do singular do presente do indicativo?",
+		"alternativas": ["Canto", "Cantava", "Cantarei", "Cantando"],
+		"resposta_correta": ["Canto"],
+		"tema": "Português",
+		"forma_geometrica": "losango"
+	  },
+	  {
+		"id": 15,
+		"pergunta": "Qual é o aumentativo de 'casa'?",
+		"alternativas": ["Casão", "Caseira", "Casinha", "Casebre"],
+		"resposta_correta": ["Casão"],
+		"tema": "Português",
+		"forma_geometrica": "hexágono"
+	  },
+	  {
+		"id": 16,
+		"pergunta": "Qual é a função do til (~) na palavra 'mãe'?",
+		"alternativas": ["Sinal nasal", "Prolongamento", "Enfeite", "Acento grave"],
+		"resposta_correta": ["Sinal nasal"],
+		"tema": "Português",
+		"forma_geometrica": "triângulo"
+	  },
+	  {
+		"id": 17,
+		"pergunta": "Qual é a conjugação do verbo 'ser' na 3ª pessoa do plural do presente do indicativo?",
+		"alternativas": ["São", "Serão", "Eram", "Fossem"],
+		"resposta_correta": ["São"],
+		"tema": "Português",
+		"forma_geometrica": "quadrado"
+	  },
+	  {
+		"id": 18,
+		"pergunta": "Qual é o diminutivo de 'flor'?",
+		"alternativas": ["Florzinha", "Florzinha", "Florinha", "Florzito"],
+		"resposta_correta": ["Florzinha"],
+		"tema": "Português",
+		"forma_geometrica": "círculo"
+	  },
+	  {
+		"id": 19,
+		"pergunta": "Qual é o sinônimo de 'alegria'?",
+		"alternativas": ["Tristeza", "Felicidade", "Raiva", "Desgosto"],
+		"resposta_correta": ["Felicidade"],
+		"tema": "Português",
+		"forma_geometrica": "losango"
+	  },
+	  {
+		"id": 20,
+		"pergunta": "Qual dessas palavras está escrita corretamente?",
+		"alternativas": ["Enxergar", "Encherga", "Enxeguar", "Enxerga"],
+		"resposta_correta": ["Enxergar"],
+		"tema": "Português",
+		"forma_geometrica": "hexágono"
+	  }
 ]
