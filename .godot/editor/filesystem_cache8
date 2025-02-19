@@ -1,54 +1,54 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739986458
-icon.svg::CompressedTexture2D::7990452260560669272::1739970423::1739970458::1::::<><>::
-::res://fonts/::1739970458
-BalooThambi2-Bold.ttf::FontFile::1794337917846244537::1739970423::1739970458::1::::<><>::
-BalooThambi2-ExtraBold.ttf::FontFile::2120242716864223504::1739970423::1739970458::1::::<><>::
-::res://positions/::1739970423
-positions.json::JSON::-1::1739970423::0::1::::<><>::
-::res://questions/::1739970423
-Ciências.json::JSON::-1::1739970423::0::1::::<><>::
-História.json::JSON::-1::1739970423::0::1::::<><>::
-Lógica.json::JSON::-1::1739986039::0::1::::<><>::
-Português.json::JSON::-1::1739986085::0::1::::<><>::
-Teste de Software.json::JSON::-1::1739986095::0::1::::<><>::
-::res://scenes/::1739972412
-carta.tscn::PackedScene::234618681829972994::1739972248::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://cbn04un8jid55::::res://sounds/Faustão-acertou.wav<>uid://c1wtxsb5gsrq8::::res://sounds/Errou - Faustao Falando.mp3
-menu_principal.tscn::PackedScene::5504748792099553450::1739972248::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://b18lmyyppbux4::::res://sprites/tela de menu.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://dogns0etjy3ke::::res://sprites/botão 7.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
-peao.tscn::PackedScene::3136927320803561761::1739972248::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
-tabuleiro.tscn::PackedScene::3778224174041577230::1739972412::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png<>uid://d0ys74ywheg2x::::res://sprites/vencedor.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png<>uid://dt3fj7x7hay2j::::res://sounds/Ayrton Senna - Tema da vitória.mp3
-timer.tscn::PackedScene::8876453083372106769::1739972248::0::1::::<><>::res://scripts/CountDown_Timer.gd
-::res://scripts/::1739971193
-carta.gd::GDScript::-1::1739970423::0::1::::<>Node2D<>::
-CountDown_Timer.gd::GDScript::-1::1739970423::0::1::::<>Node<>::
-menu_principal.gd::GDScript::-1::1739970423::0::1::::<>Node2D<>::
-posicao.gd::GDScript::-1::1739970423::0::1::::Posicao<>Object<>::
-tabuleiro.gd::GDScript::-1::1739971193::0::1::::<>Node2D<>::
-::res://sounds/::1739970985
-407484__ruthdt98__boardgame.wav::AudioStreamWAV::920127135818471932::1739970423::1739970459::1::::<><>::
-553410__petebarry__fx_board_game_pawn01.wav::AudioStreamWAV::8768243767007188792::1739970423::1739970459::1::::<><>::
-Ayrton Senna - Tema da vitória.mp3::AudioStreamMP3::8550974032165591343::1739970984::1739970985::1::::<><>::
-Errou - Faustao Falando.mp3::AudioStreamMP3::6644363257023650037::1739970423::1739970458::1::::<><>::
-Faustão-acertou.wav::AudioStreamWAV::4871437906730590422::1739970423::1739970459::1::::<><>::
-mixkit-on-or-off-light-switch-tap-2585.wav::AudioStreamWAV::4148001295297572693::1739970423::1739970459::1::::<><>::
-::res://sprites/::1739970459
-botão4.png::CompressedTexture2D::8214439506332867774::1739970423::1739970458::1::::<><>::
-botão5.png::CompressedTexture2D::629282758020418808::1739970423::1739970458::1::::<><>::
-botão 6.png::CompressedTexture2D::468544250844630423::1739970423::1739970458::1::::<><>::
-botão 7.png::CompressedTexture2D::8155114913871614712::1739970423::1739970458::1::::<><>::
-botão 8.png::CompressedTexture2D::1270408569428949097::1739970423::1739970458::1::::<><>::
-Captura de tela de 2025-01-07 16-14-39.png::CompressedTexture2D::7650730063944486849::1739970423::1739970458::1::::<><>::
-Captura de tela de 2025-01-14 09-59-23.png::CompressedTexture2D::1512320237356328618::1739970423::1739970458::1::::<><>::
-Fundo1_black.png::CompressedTexture2D::4118750623966628509::1739970423::1739970458::1::::<><>::
-Fundo1_white.png::CompressedTexture2D::8142887545771917635::1739970423::1739970458::1::::<><>::
-Fundo2.png::CompressedTexture2D::4660423540883817120::1739970423::1739970458::1::::<><>::
-Fundo5.png::CompressedTexture2D::2948596381404467857::1739970423::1739970458::1::::<><>::
-Peao-Grow-Azul.png::CompressedTexture2D::7339001021238243025::1739970423::1739970459::1::::<><>::
-Peao-Grow-Branco.png::CompressedTexture2D::3573110889596717691::1739970423::1739970458::1::::<><>::
-Peao-Grow-Preto.png::CompressedTexture2D::6181535681997156209::1739970423::1739970459::1::::<><>::
-Peao-Grow-Vermelho.png::CompressedTexture2D::4611120322664073690::1739970423::1739970459::1::::<><>::
-tela de menu.png::CompressedTexture2D::4280145698950554579::1739970423::1739970458::1::::<><>::
-vencedor.png::CompressedTexture2D::8964679820663859349::1739970423::1739970458::1::::<><>::
-::res://sprites/imagens/::1739970458
-faustao acertou.jpg::CompressedTexture2D::3726612644424371632::1739970423::1739970458::1::::<><>::
-faustão errou.jpg::CompressedTexture2D::5411183743594509357::1739970423::1739970458::1::::<><>::
+::res://::1739992698
+icon.svg::CompressedTexture2D::7990452260560669272::1739992623::1739992701::1::::<><>::
+::res://fonts/::1739992623
+BalooThambi2-Bold.ttf::FontFile::1794337917846244537::1739992623::1739992701::1::::<><>::
+BalooThambi2-ExtraBold.ttf::FontFile::2120242716864223504::1739992623::1739992701::1::::<><>::
+::res://positions/::1739992623
+positions.json::JSON::-1::1739992623::0::1::::<><>::
+::res://questions/::1739992623
+Ciências.json::JSON::-1::1739992623::0::1::::<><>::
+História.json::JSON::-1::1739992623::0::1::::<><>::
+Lógica.json::JSON::-1::1739992623::0::1::::<><>::
+Português.json::JSON::-1::1739992623::0::1::::<><>::
+Teste de Software.json::JSON::-1::1739992623::0::1::::<><>::
+::res://scenes/::1739992623
+carta.tscn::PackedScene::234618681829972994::1739992623::0::1::::<><>::res://scripts/carta.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://cbn04un8jid55::::res://sounds/Faustão-acertou.wav<>uid://c1wtxsb5gsrq8::::res://sounds/Errou - Faustao Falando.mp3
+menu_principal.tscn::PackedScene::5504748792099553450::1739992623::0::1::::<><>::res://scripts/menu_principal.gd<>uid://biak7mb65wxw0::::res://sprites/Fundo5.png<>uid://b18lmyyppbux4::::res://sprites/tela de menu.png<>uid://0tgqo0vgbhkb::::res://fonts/BalooThambi2-Bold.ttf<>uid://dogns0etjy3ke::::res://sprites/botão 7.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
+peao.tscn::PackedScene::3136927320803561761::1739992623::0::1::::<><>::uid://b6xwqiue5nsjy::::res://sprites/Peao-Grow-Vermelho.png<>uid://dctcjloa5v370::::res://sprites/Peao-Grow-Azul.png<>uid://cucm8v6hysi6d::::res://sprites/Peao-Grow-Preto.png<>uid://bq53u5e8n7v28::::res://sprites/Peao-Grow-Branco.png
+tabuleiro.tscn::PackedScene::3778224174041577230::1739992623::0::1::::<><>::res://scripts/tabuleiro.gd<>uid://bkxsy8jgmuqpd::::res://scenes/peao.tscn<>uid://vstxtrxi4u31::::res://sprites/Captura de tela de 2025-01-14 09-59-23.png<>uid://d0ys74ywheg2x::::res://sprites/vencedor.png<>uid://sdnpcyqn8f82::::res://sprites/botão 8.png
+timer.tscn::PackedScene::8876453083372106769::1739992623::0::1::::<><>::res://scripts/CountDown_Timer.gd
+::res://scripts/::1739992623
+carta.gd::GDScript::-1::1739992623::0::1::::<>Node2D<>::
+CountDown_Timer.gd::GDScript::-1::1739992623::0::1::::<>Node<>::
+menu_principal.gd::GDScript::-1::1739992623::0::1::::<>Node2D<>::
+posicao.gd::GDScript::-1::1739992623::0::1::::Posicao<>Object<>::
+tabuleiro.gd::GDScript::-1::1739992623::0::1::::<>Node2D<>::
+::res://sounds/::1739992623
+407484__ruthdt98__boardgame.wav::AudioStreamWAV::920127135818471932::1739992623::1739992702::1::::<><>::
+553410__petebarry__fx_board_game_pawn01.wav::AudioStreamWAV::8768243767007188792::1739992623::1739992702::1::::<><>::
+Ayrton Senna - Tema da vitória.mp3::AudioStreamMP3::8550974032165591343::1739992623::1739992701::1::::<><>::
+Errou - Faustao Falando.mp3::AudioStreamMP3::6644363257023650037::1739992623::1739992701::1::::<><>::
+Faustão-acertou.wav::AudioStreamWAV::4871437906730590422::1739992623::1739992702::1::::<><>::
+mixkit-on-or-off-light-switch-tap-2585.wav::AudioStreamWAV::4148001295297572693::1739992623::1739992702::1::::<><>::
+::res://sprites/::1739992623
+botão4.png::CompressedTexture2D::8214439506332867774::1739992623::1739992701::1::::<><>::
+botão5.png::CompressedTexture2D::629282758020418808::1739992623::1739992701::1::::<><>::
+botão 6.png::CompressedTexture2D::468544250844630423::1739992623::1739992701::1::::<><>::
+botão 7.png::CompressedTexture2D::8155114913871614712::1739992623::1739992701::1::::<><>::
+botão 8.png::CompressedTexture2D::1270408569428949097::1739992623::1739992701::1::::<><>::
+Captura de tela de 2025-01-07 16-14-39.png::CompressedTexture2D::7650730063944486849::1739992623::1739992702::1::::<><>::
+Captura de tela de 2025-01-14 09-59-23.png::CompressedTexture2D::1512320237356328618::1739992623::1739992701::1::::<><>::
+Fundo1_black.png::CompressedTexture2D::4118750623966628509::1739992623::1739992701::1::::<><>::
+Fundo1_white.png::CompressedTexture2D::8142887545771917635::1739992623::1739992701::1::::<><>::
+Fundo2.png::CompressedTexture2D::4660423540883817120::1739992623::1739992701::1::::<><>::
+Fundo5.png::CompressedTexture2D::2948596381404467857::1739992623::1739992701::1::::<><>::
+Peao-Grow-Azul.png::CompressedTexture2D::7339001021238243025::1739992623::1739992702::1::::<><>::
+Peao-Grow-Branco.png::CompressedTexture2D::3573110889596717691::1739992623::1739992701::1::::<><>::
+Peao-Grow-Preto.png::CompressedTexture2D::6181535681997156209::1739992623::1739992702::1::::<><>::
+Peao-Grow-Vermelho.png::CompressedTexture2D::4611120322664073690::1739992623::1739992702::1::::<><>::
+tela de menu.png::CompressedTexture2D::4280145698950554579::1739992623::1739992702::1::::<><>::
+vencedor.png::CompressedTexture2D::8964679820663859349::1739992623::1739992701::1::::<><>::
+::res://sprites/imagens/::1739992623
+faustao acertou.jpg::CompressedTexture2D::3726612644424371632::1739992623::1739992702::1::::<><>::
+faustão errou.jpg::CompressedTexture2D::5411183743594509357::1739992623::1739992702::1::::<><>::
