@@ -273,7 +273,7 @@
 	},
 	{
 		"pos": [978, 232],
-		"forma_geometrica": "circulo"
+		"forma_geometrica": "círculo"
 	},
 	{
 		"pos": [926, 236],
@@ -289,7 +289,7 @@
 	},
 	{
 		"pos": [770, 231],
-		"forma_geometrica": "circulo"
+		"forma_geometrica": "círculo"
 	},
 	{
 		"pos": [716, 231],
@@ -305,7 +305,7 @@
 	},
 	{
 		"pos": [559, 231],
-		"forma_geometrica": "circulo"
+		"forma_geometrica": "círculo"
 	},
 	{
 		"pos": [505, 231],
@@ -321,7 +321,7 @@
 	},
 	{
 		"pos": [353, 231],
-		"forma_geometrica": "circulo"
+		"forma_geometrica": "círculo"
 	},
 	{
 		"pos": [299, 231],
@@ -337,6 +337,6 @@
 	},
 	{
 		"pos": [139,231],
-		"forma_geometrica": "circulo"
+		"forma_geometrica": "círculo"
 	}
 ]
