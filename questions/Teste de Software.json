@@ -4,11 +4,11 @@
 		"pergunta": "O que é teste de software?",
 		"alternativas": [
 			"Brincar com o computador",
-			"Verificar se um programa funciona direitinho",
+			"Verificar se um programa funciona corretamente",
 			"Desenhar telas coloridas",
 			"Criar jogos novos"
 		],
-		"resposta_correta": ["Verificar se um programa funciona direitinho"],
+		"resposta_correta": ["Verificar se um programa funciona corretamente"],
 		"tema": "Teste de Software",
 		"forma_geometrica": "círculo"
 	},
@@ -32,10 +32,361 @@
 			"Um inseto que entra no computador",
 			"Um erro que faz o programa não funcionar direito",
 			"Um jogo divertido",
-			"Um tipo de computador"
+			"Um tipo de computador"
 		],
 		"resposta_correta": ["Um erro que faz o programa não funcionar direito"],
 		"tema": "Teste de Software",
 		"forma_geometrica": "losango"
+	},
+	{
+		"id": 4,
+		"pergunta": "O que é um caso de teste?",
+		"alternativas": [
+			"Um jogo de computador",
+			"Um cenário que verifica se uma parte do software funciona",
+			"Um tipo de bug",
+			"Um desenho de telas"
+		],
+		"resposta_correta": ["Um cenário que verifica se uma parte do software funciona"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 5,
+		"pergunta": "Qual é o objetivo principal dos testes de software?",
+		"alternativas": [
+			"Aumentar o custo do projeto",
+			"Garantir a qualidade do software",
+			"Tornar o programa mais lento",
+			"Adicionar mais bugs"
+		],
+		"resposta_correta": ["Garantir a qualidade do software"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 6,
+		"pergunta": "O que é teste de unidade?",
+		"alternativas": [
+			"Testar todo o sistema de uma vez",
+			"Testar partes pequenas e isoladas do código",
+			"Testar apenas a interface do usuário",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar partes pequenas e isoladas do código"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 7,
+		"pergunta": "O que é um teste de integração?",
+		"alternativas": [
+			"Testar partes isoladas do código",
+			"Testar como diferentes partes do sistema funcionam juntas",
+			"Testar apenas a aparência do software",
+			"Testar o desempenho do hardware"
+		],
+		"resposta_correta": ["Testar como diferentes partes do sistema funcionam juntas"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 8,
+		"pergunta": "O que é um teste de sistema?",
+		"alternativas": [
+			"Testar apenas uma função do programa",
+			"Testar o sistema completo como um todo",
+			"Testar o hardware do computador",
+			"Testar a velocidade da internet"
+		],
+		"resposta_correta": ["Testar o sistema completo como um todo"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 9,
+		"pergunta": "O que é um teste de aceitação?",
+		"alternativas": [
+			"Testar se o software atende às necessidades do usuário",
+			"Testar apenas o código-fonte",
+			"Testar o desempenho do hardware",
+			"Testar a conexão com a internet"
+		],
+		"resposta_correta": ["Testar se o software atende às necessidades do usuário"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 10,
+		"pergunta": "O que é um teste de regressão?",
+		"alternativas": [
+			"Testar novas funcionalidades",
+			"Testar se as alterações no código afetaram funcionalidades existentes",
+			"Testar apenas a interface do usuário",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar se as alterações no código afetaram funcionalidades existentes"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 11,
+		"pergunta": "O que é um teste de desempenho?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar a velocidade e estabilidade do software",
+			"Testar apenas o código-fonte",
+			"Testar a conexão com a internet"
+		],
+		"resposta_correta": ["Testar a velocidade e estabilidade do software"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 12,
+		"pergunta": "O que é um teste de usabilidade?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar como os usuários interagem com o software",
+			"Testar apenas o código-fonte",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar como os usuários interagem com o software"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 13,
+		"pergunta": "O que é um teste de segurança?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar a proteção do software contra ameaças",
+			"Testar apenas o código-fonte",
+			"Testar a velocidade da internet"
+		],
+		"resposta_correta": ["Testar a proteção do software contra ameaças"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 14,
+		"pergunta": "O que é um teste de carga?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar como o software se comporta sob grande volume de dados",
+			"Testar apenas o código-fonte",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar como o software se comporta sob grande volume de dados"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 15,
+		"pergunta": "O que é um teste de estresse?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar o software sob condições extremas",
+			"Testar apenas o código-fonte",
+			"Testar a conexão com a internet"
+		],
+		"resposta_correta": ["Testar o software sob condições extremas"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 16,
+		"pergunta": "O que é um teste de compatibilidade?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar se o software funciona em diferentes ambientes",
+			"Testar apenas o código-fonte",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar se o software funciona em diferentes ambientes"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 17,
+		"pergunta": "O que é um teste de instalação?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar o processo de instalação do software",
+			"Testar apenas o código-fonte",
+			"Testar a conexão com a internet"
+		],
+		"resposta_correta": ["Testar o processo de instalação do software"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 18,
+		"pergunta": "O que é um teste de recuperação?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar como o software se recupera de falhas",
+			"Testar apenas o código-fonte",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar como o software se recupera de falhas"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 19,
+		"pergunta": "O que é um teste de interface?",
+		"alternativas": [
+			"Testar a aparência do software",
+			"Testar a interação entre diferentes componentes do software",
+			"Testar apenas o código-fonte",
+			"Testar a conexão com a internet"
+		],
+		"resposta_correta": ["Testar a interação entre diferentes componentes do software"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 20,
+		"pergunta": "O que é um teste de caixa preta?",
+		"alternativas": [
+			"Testar o software sem conhecer seu código interno",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software sem conhecer seu código interno"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 21,
+		"pergunta": "O que é um teste de caixa branca?",
+		"alternativas": [
+			"Testar o software sem conhecer seu código interno",
+			"Testar o software conhecendo seu código interno",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software conhecendo seu código interno"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 22,
+		"pergunta": "O que é um teste de caixa cinza?",
+		"alternativas": [
+			"Testar o software sem conhecer seu código interno",
+			"Testar o software com conhecimento parcial do código interno",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software com conhecimento parcial do código interno"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 23,
+		"pergunta": "O que é um teste de validação?",
+		"alternativas": [
+			"Testar se o software atende às especificações",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar se o software atende às especificações"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 24,
+		"pergunta": "O que é um teste de verificação?",
+		"alternativas": [
+			"Testar se o software foi construído corretamente",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar se o software foi construído corretamente"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 25,
+		"pergunta": "O que é um teste de automação?",
+		"alternativas": [
+			"Testar o software manualmente",
+			"Testar o software usando ferramentas automatizadas",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software usando ferramentas automatizadas"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 26,
+		"pergunta": "O que é um teste de smoke?",
+		"alternativas": [
+			"Testar o software superficialmente para verificar se está estável",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software superficialmente para verificar se está estável"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 27,
+		"pergunta": "O que é um teste de sanidade?",
+		"alternativas": [
+			"Testar o software superficialmente após mudanças",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software superficialmente após mudanças"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 28,
+		"pergunta": "O que é um teste de aceitação do usuário (UAT)?",
+		"alternativas": [
+			"Testar o software com os usuários finais",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software com os usuários finais"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 29,
+		"pergunta": "O que é um teste de regressão manual?",
+		"alternativas": [
+			"Testar o software manualmente após mudanças",
+			"Testar apenas o código-fonte",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software manualmente após mudanças"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 30,
+		"pergunta": "O que é um teste de regressão automatizado?",
+		"alternativas": [
+			"Testar o software manualmente após mudanças",
+			"Testar o software automaticamente após mudanças",
+			"Testar a aparência do software",
+			"Testar o hardware do computador"
+		],
+		"resposta_correta": ["Testar o software automaticamente após mudanças"],
+		"tema": "Teste de Software",
+		"forma_geometrica": "quadrado"
 	}
 ]

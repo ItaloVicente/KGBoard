@@ -1,6 +1,8 @@
-res://scenes/tabuleiro.tscn
 res://scenes/menu_principal.tscn
+res://questions/Lógica.json
+res://questions/Português.json
+res://questions/Teste de Software.json
 res://scenes/peao.tscn
+res://scenes/tabuleiro.tscn
 res://scenes/timer.tscn
 res://scenes/carta.tscn
-res://scripts/tabuleiro.gd

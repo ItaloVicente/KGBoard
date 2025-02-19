@@ -1,80 +1,237 @@
 [
 	{
 		"id": 1,
-		"pergunta": "Qual é o próximo número na sequência: 2, 4, 6, 8, ___?",
+		"pergunta": "Qual é o próximo número na sequência: 1, 3, 5, 7, ___?",
 		"alternativas": [
+			"8",
 			"9",
 			"10",
-			"12",
-			"14"
+			"11"
 		],
-		"resposta_correta": ["10"],
+		"resposta_correta": ["9"],
 		"tema": "Lógica",
 		"forma_geometrica": "triângulo"
 	},
 	{
 		"id": 2,
-		"pergunta": "Complete a sequência de figuras: 🔴, 🔵, 🔴, 🔵, ___",
+		"pergunta": "Se Ana é mais alta que Beatriz e Beatriz é mais alta que Carla, quem é a mais baixa?",
 		"alternativas": [
-			"🔴",
-			"🔵",
-			"⚪",
-			"🟢"
+			"Ana",
+			"Beatriz",
+			"Carla",
+			"Todas têm a mesma altura"
 		],
-		"resposta_correta": ["🔴"],
+		"resposta_correta": ["Carla"],
 		"tema": "Lógica",
-		"forma_geometrica": "losango"
+		"forma_geometrica": "quadrado"
 	},
 	{
 		"id": 3,
-		"pergunta": "Se todos os gatos são pretos e o Totó é um gato, qual é a cor do Totó?",
+		"pergunta": "Se todos os cães latem e Rex é um cão, o que podemos concluir?",
 		"alternativas": [
-			"Branco",
-			"Preto",
-			"Marrom",
-			"Cinza"
+			"Rex mia",
+			"Rex late",
+			"Rex é um gato",
+			"Rex não late"
 		],
-		"resposta_correta": ["Preto"],
+		"resposta_correta": ["Rex late"],
 		"tema": "Lógica",
 		"forma_geometrica": "círculo"
 	},
 	{
 		"id": 4,
-		"pergunta": "O que é, o que é: quanto mais você tira, maior ele fica?",
+		"pergunta": "Se um trem leva 2 horas para percorrer 100 km, qual a sua velocidade média?",
 		"alternativas": [
-			"Um buraco",
-			"Um lápis",
-			"Um balão",
-			"Uma caixa"
+			"50 km/h",
+			"100 km/h",
+			"200 km/h",
+			"25 km/h"
 		],
-		"resposta_correta": ["Um buraco"],
+		"resposta_correta": ["50 km/h"],
 		"tema": "Lógica",
 		"forma_geometrica": "losango"
 	},
 	{
 		"id": 5,
-		"pergunta": "O que é, o que é: tem chaves, mas não abre portas?",
+		"pergunta": "Se hoje é quarta-feira, que dia será depois de amanhã?",
 		"alternativas": [
-			"Um teclado",
-			"Um cadeado",
-			"Um piano",
-			"Um carro"
+			"Quinta-feira",
+			"Sexta-feira",
+			"Sábado",
+			"Domingo"
 		],
-		"resposta_correta": ["Um piano"],
+		"resposta_correta": ["Sexta-feira"],
+		"tema": "Lógica",
+		"forma_geometrica": "hexágono"
+	},
+	{
+		"id": 6,
+		"pergunta": "Quantos lados tem um heptágono?",
+		"alternativas": [
+			"5",
+			"6",
+			"7",
+			"8"
+		],
+		"resposta_correta": ["7"],
+		"tema": "Lógica",
+		"forma_geometrica": "heptágono"
+	},
+	{
+		"id": 7,
+		"pergunta": "Se um relógio adianta 5 minutos por hora, quantos minutos ele adiantará em 6 horas?",
+		"alternativas": [
+			"25 minutos",
+			"30 minutos",
+			"35 minutos",
+			"40 minutos"
+		],
+		"resposta_correta": ["30 minutos"],
+		"tema": "Lógica",
+		"forma_geometrica": "pentágono"
+	},
+	{
+		"id": 8,
+		"pergunta": "Qual número completa a sequência: 81, 27, 9, 3, ___?",
+		"alternativas": [
+			"1",
+			"2",
+			"0",
+			"4"
+		],
+		"resposta_correta": ["1"],
+		"tema": "Lógica",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 9,
+		"pergunta": "Se dois carros partem do mesmo ponto, um a 60 km/h e outro a 80 km/h, qual carro chegará primeiro a um destino 240 km distante?",
+		"alternativas": [
+			"O carro a 60 km/h",
+			"O carro a 80 km/h",
+			"Ambos chegam juntos",
+			"Depende do motorista"
+		],
+		"resposta_correta": ["O carro a 80 km/h"],
+		"tema": "Lógica",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 10,
+		"pergunta": "Se A é menor que B, e B é menor que C, então qual a relação entre A e C?",
+		"alternativas": [
+			"A é maior que C",
+			"A é igual a C",
+			"A é menor que C",
+			"Não é possível determinar"
+		],
+		"resposta_correta": ["A é menor que C"],
 		"tema": "Lógica",
 		"forma_geometrica": "círculo"
 	},
 	{
-		"id": 6,
-		"pergunta": "O que é, o que é: sempre vem, mas nunca chega?",
+		"id": 11,
+		"pergunta": "Qual número vem a seguir na sequência: 144, 121, 100, 81, ___?",
 		"alternativas": [
-			"O futuro",
-			"O passado",
-			"O presente",
-			"O vento"
+			"60",
+			"64",
+			"49",
+			"36"
 		],
-		"resposta_correta": ["O futuro"],
+		"resposta_correta": ["64"],
+		"tema": "Lógica",
+		"forma_geometrica": "hexágono"
+	},
+	{
+		"id": 12,
+		"pergunta": "Se João tem o dobro da idade de Pedro e Pedro tem 15 anos, quantos anos tem João?",
+		"alternativas": [
+			"20",
+			"30",
+			"40",
+			"25"
+		],
+		"resposta_correta": ["30"],
+		"tema": "Lógica",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 13,
+		"pergunta": "Se um triângulo tem dois lados iguais e um diferente, ele é chamado de:",
+		"alternativas": [
+			"Equilátero",
+			"Isósceles",
+			"Escaleno",
+			"Retângulo"
+		],
+		"resposta_correta": ["Isósceles"],
+		"tema": "Lógica",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 14,
+		"pergunta": "Se 3x = 12, quanto vale x?",
+		"alternativas": [
+			"2",
+			"3",
+			"4",
+			"6"
+		],
+		"resposta_correta": ["4"],
 		"tema": "Lógica",
 		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 15,
+		"pergunta": "Qual é a capital do Brasil?",
+		"alternativas": [
+			"São Paulo",
+			"Rio de Janeiro",
+			"Brasília",
+			"Salvador"
+		],
+		"resposta_correta": ["Brasília"],
+		"tema": "Lógica",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 16,
+		"pergunta": "Qual é o próximo número da sequência: 5, 10, 15, 20, ___?",
+		"alternativas": ["22", "25", "30", "35"],
+		"resposta_correta": ["25"],
+		"tema": "Lógica",
+		"forma_geometrica": "triângulo"
+	},
+	{
+		"id": 17,
+		"pergunta": "Se hoje é segunda-feira, que dia foi anteontem?",
+		"alternativas": ["Sexta-feira", "Sábado", "Domingo", "Quarta-feira"],
+		"resposta_correta": ["Sábado"],
+		"tema": "Lógica",
+		"forma_geometrica": "quadrado"
+	},
+	{
+		"id": 18,
+		"pergunta": "João tem 5 maçãs e come 2. Quantas maçãs ele tem agora?",
+		"alternativas": ["2", "3", "4", "5"],
+		"resposta_correta": ["3"],
+		"tema": "Lógica",
+		"forma_geometrica": "círculo"
+	},
+	{
+		"id": 19,
+		"pergunta": "Se todos os gatos são mamíferos e Tom é um gato, então Tom é:",
+		"alternativas": ["Réptil", "Mamífero", "Ave", "Peixe"],
+		"resposta_correta": ["Mamífero"],
+		"tema": "Lógica",
+		"forma_geometrica": "losango"
+	},
+	{
+		"id": 20,
+		"pergunta": "Qual o resultado de 3 + 3 x 3?",
+		"alternativas": ["9", "12", "18", "15"],
+		"resposta_correta": ["12"],
+		"tema": "Lógica",
+		"forma_geometrica": "hexágono"
 	}
 ]
