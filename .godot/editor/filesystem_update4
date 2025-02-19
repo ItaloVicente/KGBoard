@@ -1,6 +1,6 @@
-res://scenes/tabuleiro.tscn
-res://scripts/tabuleiro.gd
 res://scenes/menu_principal.tscn
 res://scenes/peao.tscn
+res://scenes/tabuleiro.tscn
 res://scenes/timer.tscn
 res://scenes/carta.tscn
+res://scripts/carta.gd

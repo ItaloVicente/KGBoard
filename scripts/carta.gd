@@ -89,6 +89,10 @@ func _process(delta: float) -> void:
 	
 # Função chamada ao pressionar o botão
 func _on_button_pressed() -> void:
+	if not botao_confirmar.disabled:
+		botao_confirmar.disabled = true
+	else:
+		return
 	for i in range(alternativas_container.get_child_count()):
 		var child = alternativas_container.get_child(i)
 		if child is CheckBox and child.is_pressed():
