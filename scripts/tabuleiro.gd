@@ -18,6 +18,9 @@ var timer = null
 const Position = preload("res://scripts/posicao.gd")
 var posicoes = []
 @export var botao_2x: bool = false
+@onready var texture_rect: TextureRect = $TextureRect
+@onready var label: Label = $TextureRect/Label
+
 func _ready() -> void:
 	# Defina as posições iniciais dos peões no tabuleiro.
 	# Ajuste estas coordenadas com base no layout do tabuleiro.
@@ -130,8 +133,18 @@ func mover_peao_frente(jogador_id: int, forma_geometrica: String) -> void:
 					encontrou_pos = true
 	#Se passou nos if é porque chegou no final
 	var tween = create_tween()
+	#jogador venceu
 	if tween.tween_property(pawn, "position", Vector2(65,225), 1.0):
+		if jogador_id == 0:
+			label.text = "VERMELHO"
+		elif jogador_id == 1:
+			label.text = "AZUL"
+		elif jogador_id == 2:
+			label.text = "PRETO"
+		elif jogador_id == 3:
+			label.text = "BRANCO"
 		print("Jogador Ganhou! ", jogador_id)
+		texture_rect.visible = true
 		print('teste')
 	self.botao_2x = false
 	
