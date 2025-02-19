@@ -20,6 +20,7 @@ var posicoes = []
 @export var botao_2x: bool = false
 @onready var texture_rect: TextureRect = $TextureRect
 @onready var label: Label = $TextureRect/Label
+@onready var tema_vitoria: AudioStreamPlayer = $TextureRect/TemaVitoria
 
 func _ready() -> void:
 	# Defina as posições iniciais dos peões no tabuleiro.
@@ -146,6 +147,7 @@ func mover_peao_frente(jogador_id: int, forma_geometrica: String) -> void:
 		print("Jogador Ganhou! ", jogador_id)
 		texture_rect.visible = true
 		print('teste')
+		tema_vitoria.play()
 	self.botao_2x = false
 	
 func mover_peao_atras(jogador_id: int, forma_geometrica) -> void:

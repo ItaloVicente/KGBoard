@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://bt3g2g70h2ldu"]
+[gd_scene load_steps=8 format=3 uid="uid://bt3g2g70h2ldu"]
 
 [ext_resource type="Script" path="res://scripts/tabuleiro.gd" id="1_2p3k5"]
 [ext_resource type="PackedScene" uid="uid://bkxsy8jgmuqpd" path="res://scenes/peao.tscn" id="2_gk4hm"]
 [ext_resource type="Texture2D" uid="uid://vstxtrxi4u31" path="res://sprites/Captura de tela de 2025-01-14 09-59-23.png" id="3_qkplo"]
 [ext_resource type="Texture2D" uid="uid://d0ys74ywheg2x" path="res://sprites/vencedor.png" id="4_ubuc7"]
 [ext_resource type="Texture2D" uid="uid://sdnpcyqn8f82" path="res://sprites/botão 8.png" id="5_rpmsr"]
+[ext_resource type="AudioStream" uid="uid://dt3fj7x7hay2j" path="res://sounds/Ayrton Senna - Tema da vitória.mp3" id="6_1xt42"]
 
 [sub_resource type="Theme" id="Theme_hlt88"]
 
@@ -78,16 +79,19 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.057
 anchor_bottom = 0.117
-offset_left = 334.0
-offset_top = 132.0
-offset_right = 334.043
-offset_bottom = 103.988
+offset_left = 199.0
+offset_top = 125.0
+offset_right = 460.043
+offset_bottom = 112.988
 theme = SubResource("Theme_hlt88")
 theme_type_variation = &"HeaderLarge"
 text = "oi"
 horizontal_alignment = 1
 uppercase = true
 tab_stops = PackedFloat32Array(0)
+
+[node name="TemaVitoria" type="AudioStreamPlayer" parent="TextureRect"]
+stream = ExtResource("6_1xt42")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
