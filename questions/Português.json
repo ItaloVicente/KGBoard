@@ -37,7 +37,7 @@
 		"alternativas": ["Há dez anos", "A dez anos", "Ambos estão corretos", "Nenhum está correto"],
 		"resposta_correta": ["Há dez anos"],
 		"tema": "Português",
-		"forma_geometrica": "hexágono"
+		"forma_geometrica": "triângulo"
 	  },
 	  {
 		"id": 6,
@@ -77,7 +77,7 @@
 		"alternativas": ["Atora", "Atoriza", "Atriz", "Atorista"],
 		"resposta_correta": ["Atriz"],
 		"tema": "Português",
-		"forma_geometrica": "hexágono"
+		"forma_geometrica": "quadrado"
 	  },
 	  {
 		"id": 11,
@@ -117,7 +117,7 @@
 		"alternativas": ["Casão", "Caseira", "Casinha", "Casebre"],
 		"resposta_correta": ["Casão"],
 		"tema": "Português",
-		"forma_geometrica": "hexágono"
+		"forma_geometrica": "triângulo"
 	  },
 	  {
 		"id": 16,
