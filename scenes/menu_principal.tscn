@@ -61,6 +61,7 @@ texture = ExtResource("2_b3hhf")
 region_rect = Rect2(0, 0, 1153, 651)
 
 [node name="Titulo" type="Label" parent="."]
+visible = false
 offset_left = 2.0
 offset_top = 20.0
 offset_right = 1155.0
@@ -101,9 +102,9 @@ text = "Voltar"
 [node name="Regras_txt" type="Label" parent="PopupRegras"]
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Acerte as questoes e avance para a casa que o cartao mandar.
-Erre as questoes e recue para a casa que o cartao mandar.
-Voce pode arriscar e duplicar seu salto, para isso precione o botao \"2x\" antes de ver a questao, "
+text = "Acerte as questões e avance para a casa que o cartão mandar.
+Erre as questões e recue para a casa que o cartão mandar.
+Você pode arriscar e duplicar seu salto. Para isso, pressione o botão '2x' antes de ver a questão."
 horizontal_alignment = 1
 
 [node name="PopupJogadores" type="Popup" parent="."]
