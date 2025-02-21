@@ -14,6 +14,7 @@ signal jogador_acertou
 signal jogador_errou
 @onready var label_pergunta = $Label
 @onready var label_vez = $Label2
+@onready var label_forma_geométrica = $Label3
 @onready var alternativas_container = $GridContainer
 @onready var botao_confirmar = $Button
 @onready var card_sprite = $Sprite2D
@@ -34,6 +35,7 @@ func _ready() -> void:
 	# Configura os elementos da carta
 	label_pergunta.text = pergunta  # Define o texto da pergunta
 	label_vez.text = cor
+	label_forma_geométrica.text = "Forma Geométrica Associada: \n" + forma_geometrica[0].to_upper() + forma_geometrica.substr(1,-1)
 	if cor == "Vez do peão Vermelho":
 		print(cor)
 		label_vez.modulate = Color(1, 0, 0)

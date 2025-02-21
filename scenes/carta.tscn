@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dlweushj5aba"]
+[gd_scene load_steps=8 format=3 uid="uid://dlweushj5aba"]
 
 [ext_resource type="Script" path="res://scripts/carta.gd" id="1_2d8bg"]
 [ext_resource type="Texture2D" uid="uid://biak7mb65wxw0" path="res://sprites/Fundo5.png" id="1_dnat8"]
@@ -9,6 +9,9 @@
 [sub_resource type="LabelSettings" id="LabelSettings_derta"]
 font = ExtResource("2_6bioc")
 font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_52u1r"]
+font_size = 11
 
 [node name="Carta" type="Node2D"]
 script = ExtResource("1_2d8bg")
@@ -33,10 +36,10 @@ offset_right = 702.0
 offset_bottom = 486.0
 
 [node name="Button" type="Button" parent="."]
-offset_left = 469.0
-offset_top = 502.0
-offset_right = 612.0
-offset_bottom = 540.0
+offset_left = 391.0
+offset_top = 499.0
+offset_right = 534.0
+offset_bottom = 537.0
 text = "Confirmar"
 
 [node name="Label2" type="Label" parent="."]
@@ -51,5 +54,13 @@ stream = ExtResource("4_sj3q0")
 [node name="ErrouAudio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_64ikq")
 volume_db = 3.0
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 544.0
+offset_top = 499.0
+offset_right = 697.0
+offset_bottom = 534.0
+text = "Forma Geométrica associada:"
+label_settings = SubResource("LabelSettings_52u1r")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
